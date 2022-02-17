@@ -1,0 +1,95 @@
+:root{
+    /**************
+     *** Colors ***
+     **************/
+     --primary-color: #444;
+     --secondary-color: #da521e;
+     --tertiary-color: #e44505;
+     --social-color: #aaa; /* Social */
+     --border-color: #e2e2e2;
+     --shadow-color: #f4f4f4; /* Shadow */
+
+    /**************
+     *** Widths ***
+     **************/
+     --max-width: 120rem;
+
+    /*************
+     *** Fonts ***
+     *************/
+     --font-size-xl: 3.2rem;
+     --font-size-lg: 2.6rem;
+     --font-size-md: 2rem;
+     --font-size-sm: 1.6rem;
+     --font-size-xs: 1.4rem;
+     --font-size-xxs: 1.2rem;
+
+    /******************
+     *** Lineheight ***
+     ******************/
+     --line-height-md: 1.7;
+
+    /*****************
+     *** Distance ***
+     *****************/
+     --distance-xs: 1rem;
+     --distance-sm: 1.5rem;
+     --distance-md: 2rem;
+     --distance-lg: 3rem;
+     --distance-xl: 4rem;
+     --distance-xxl: 5rem;
+
+    /***************
+     *** Shadows ***
+     ***************/
+     --box-shadow: 1rem 1rem .8rem var(--shadow-color);
+
+    /***************
+     *** Borders ***
+     ***************/
+     --border-xs: .1rem solid var(--border-color);
+     --border-secondary: .1rem solid var(--secondary-color);
+     --circle:100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: var(--line-height-md);
+    color: var(--primary-color);
+    font-size: var(--font-size-sm);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500; 
+    color: var(--primary-color); 
+    text-transform: uppercase;  
+    margin-bottom: var(--distance-md);
+}
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+h3 { font-size: var(--font-size-md); }
+h4 { font-size: var(--font-size-sm); }
+
+a:hover{ cursor: pointer; }
+
+ul{ list-style: none; }
+
