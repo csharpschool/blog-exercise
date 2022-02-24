@@ -1,0 +1,31 @@
+.blog_content_newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    border: var(--border-xs);
+    box-shadow: var(--box-shadow);
+    padding: var(--distance-lg);
+    margin: var(--distance-lg) 0;
+}
+
+.newsletter_input{
+    font-style: italic;
+    margin-bottom: var(--distance-sm);
+    border: var(--border-xs);
+    padding: var(--distance-sm);
+    width: 100%;
+}
+
+.newsletter_button{
+    padding: var(--distance-sm);
+    width: 100%;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.newsletter_button:hover{
+    background-color: var(--tertiary-color);
+}

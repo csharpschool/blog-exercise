@@ -90,6 +90,6 @@ h3 { font-size: var(--font-size-md); }
 h4 { font-size: var(--font-size-sm); }
 
 a:hover{ cursor: pointer; }
-
+a { text-decoration: none; }
 ul{ list-style: none; }
 
