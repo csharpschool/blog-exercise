@@ -29,3 +29,10 @@
 .newsletter_button:hover{
     background-color: var(--tertiary-color);
 }
+
+
+@media (max-width: 950px) {
+    .blog_content_newsletter{
+        width: 100%;
+    }
+}

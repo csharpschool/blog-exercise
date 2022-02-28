@@ -58,4 +58,18 @@
     display: flex;
     gap: var(--distance-xs)
 }
-    
+
+@media (max-width: 600px) {
+    .blog_section{
+        padding-top: 27rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .blog_content{ 
+        display: flex;
+        flex-direction: column;
+        gap: var(--distance-lg);
+    }
+}
+

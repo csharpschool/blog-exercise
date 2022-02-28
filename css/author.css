@@ -53,3 +53,17 @@
 .author_social li:hover{
     border-color:var(--secondary-color);
 }
+
+@media (max-width: 400px) {
+    .author_avatar{
+        width: 12rem;
+        border: 5px solid white;
+        margin-top: -6rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .blog_content_author{
+        width: 100%;
+    }
+}
